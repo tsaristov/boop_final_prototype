@@ -5,7 +5,7 @@ import json
 import asyncio
 
 # Bot configuration
-TOKEN = "MTMwODMyOTE0OTg3MzY1MTgwMg.Gx2EAJ.6nK1hKKntRQkH2sgBt_Iecdov01lEGCebij4hI"
+TOKEN = ""
 API_URL = "http://0.0.0.0:8003/detect-intent"  # Updated FastAPI endpoint
 
 # Define bot intents
