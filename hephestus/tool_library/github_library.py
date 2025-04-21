@@ -27,7 +27,7 @@ logger = logging.getLogger(__name__)
 GITHUB_API_URL = "https://api.github.com"
 GITHUB_REPO_OWNER = os.environ.get("HEPHESTUS_GITHUB_OWNER", "tsaristov")
 GITHUB_REPO_NAME = os.environ.get("HEPHESTUS_GITHUB_REPO", "hephestus-tools")
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "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")
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 # Caching to reduce API calls
 CACHE_TTL = 3600  # 1 hour
