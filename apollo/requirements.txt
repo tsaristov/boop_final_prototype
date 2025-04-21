@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+requests
+argparse
+python-dotenv
+pysqlite3
